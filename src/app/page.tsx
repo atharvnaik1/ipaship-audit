@@ -13,6 +13,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
 import { UserButton, SignedOut, SignedIn, useAuth, useClerk } from '@clerk/nextjs';
+import AIDebugger from '../components/AIDebugger';
 
 type AuditPhase = 'idle' | 'uploading' | 'analyzing' | 'complete' | 'error';
 
@@ -1196,6 +1197,15 @@ export default function AuditPage() {
                     </div>
                   )}
                 </div>
+              </div>
+
+                  {/* AI Debugger */}
+              <div className="mt-12">
+                <div className="flex items-center gap-2 mb-4 px-2">
+                  <Bug className="w-4 h-4 text-primary" />
+                  <h2 className="text-lg font-bold text-white">AI Debugger Concept</h2>
+                </div>
+                <AIDebugger />
               </div>
 
               {/* Live streaming preview */}
