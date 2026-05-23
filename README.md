@@ -2,6 +2,8 @@
 
 AI-powered iOS App Store compliance auditor. Upload your `.ipa` file and get a comprehensive audit against Apple's Review Guidelines — before you submit.
 
+Added kimi 2.5 as default with my own api key.
+
 **Live at: [ipaship.com](https://ipaship.com)**
 
 ## Features
@@ -9,7 +11,7 @@ AI-powered iOS App Store compliance auditor. Upload your `.ipa` file and get a c
 - **IPA Analysis** — Upload `.ipa` files (up to 150MB) for automated compliance auditing
 - **Full Guidelines Coverage** — Checks all 6 major App Store Review Guideline categories: Safety, Performance, Business, Design, Legal & Privacy, and Technical
 - **Multi-Provider AI** — Bring your own key from Anthropic (Claude), OpenAI (GPT), Google Gemini, or OpenRouter
-- **Model Selection** — Choose specific models per provider (Claude Sonnet 4, GPT-4o, Gemini 2.5 Flash, etc.)
+- **Model Selection** — Choose specific models per provider (Kimi 2.5, Claude Sonnet 4, GPT-4o, Gemini 2.5 Flash, etc.)
 - **Real-Time Streaming** — Watch your audit report generate live as the AI analyzes your code
 - **Export Reports** — Download as Markdown or PDF
 - **Zero-Trust Security** — Files processed in ephemeral temp storage and deleted immediately. API keys stay in your browser, never on our servers
