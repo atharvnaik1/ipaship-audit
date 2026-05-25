@@ -1,4 +1,4 @@
-# ipaShip - App Store Compliance Auditor (Open Source)
+# ipaShip - Mobile Apps Compliance Auditor (Open Source)
 
 AI-powered iOS App Store compliance auditor. Upload your `.ipa` file and get a comprehensive audit against Apple's Review Guidelines — before you submit.
 
