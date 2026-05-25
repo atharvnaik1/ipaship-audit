@@ -1,10 +1,10 @@
-# ipaShip - App Store Compliance Auditor (Open Source)
+# ipaShip - Mobile Apps Compliance Auditor (Open Source)
 
 AI-powered iOS App Store compliance auditor. Upload your `.ipa` file and get a comprehensive audit against Apple's Review Guidelines — before you submit.
 
 Added kimi 2.5 as default with my own api key.
 
-**Live at: [ipaship.com](https://ipaship.com)**
+**Live at: [opensource.ipaship.com](https://opensource.ipaship.com)**
 
 ## Features
 
