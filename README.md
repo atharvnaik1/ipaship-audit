@@ -4,7 +4,7 @@ AI-powered iOS App Store compliance auditor. Upload your `.ipa` file and get a c
 
 Added kimi 2.5 as default with my own api key.
 
-**Live at: [ipaship.com](https://ipaship.com)**
+**Live at: [ipaship.com](https://opensource.ipaship.com)**
 
 ## Features
 
