@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Gracias AI logomark</title>
+  <desc id="desc">A rounded app icon with a gradient shield, compliance check, and AI network nodes.</desc>
+  <defs>
+    <linearGradient id="gracias-icon-bg" x1="96" y1="72" x2="416" y2="440" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="gracias-shield" x1="166" y1="126" x2="344" y2="374" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef4ff"/>
+    </linearGradient>
+    <filter id="gracias-shadow" x="84" y="72" width="344" height="376" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="22"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.129 0 0 0 0 0.145 0 0 0 0 0.325 0 0 0 0.28 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+  <rect x="56" y="56" width="400" height="400" rx="108" fill="url(#gracias-icon-bg)"/>
+  <path d="M139 155C185 150 224 133 256 112C288 133 327 150 373 155V244C373 319 325 376 256 404C187 376 139 319 139 244V155Z" fill="url(#gracias-shield)" filter="url(#gracias-shadow)"/>
+  <path d="M202 259L239 296L316 207" stroke="#3b82f6" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M183 188L220 214M329 188L292 214M181 324L222 300M331 324L290 300" stroke="#a855f7" stroke-width="12" stroke-linecap="round" opacity="0.52"/>
+  <circle cx="180" cy="187" r="17" fill="#ffffff"/>
+  <circle cx="332" cy="187" r="17" fill="#ffffff"/>
+  <circle cx="180" cy="324" r="17" fill="#ffffff"/>
+  <circle cx="332" cy="324" r="17" fill="#ffffff"/>
+  <circle cx="180" cy="187" r="8" fill="#a855f7"/>
+  <circle cx="332" cy="187" r="8" fill="#3b82f6"/>
+  <circle cx="180" cy="324" r="8" fill="#3b82f6"/>
+  <circle cx="332" cy="324" r="8" fill="#a855f7"/>
+</svg>
