@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <!-- Definitions for gradients and filters -->
+  <defs>
+    <!-- Primary Brand Gradient (Purple to Blue) -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <!-- Glow/Shadow Filter for iOS Premium Look -->
+    <filter id="premiumGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(0, -20)">
+    <!-- Outer Compliance Shield (Zero-Trust/Security) -->
+    <path d="M 400,150 
+             C 490,150 580,180 580,180 
+             C 580,380 540,530 400,650 
+             C 260,530 220,380 220,180 
+             C 220,180 310,150 400,150 Z" 
+          fill="none" 
+          stroke="url(#brandGrad)" 
+          stroke-width="12" 
+          stroke-linejoin="round"
+          opacity="0.3" />
+
+    <!-- Inner Shield (Thicker, main border) -->
+    <path d="M 400,180 
+             C 470,180 540,205 540,205 
+             C 540,360 500,490 400,590 
+             C 300,490 260,360 260,205 
+             C 260,205 330,180 400,180 Z" 
+          fill="none" 
+          stroke="url(#brandGrad)" 
+          stroke-width="24" 
+          stroke-linejoin="round"
+          filter="url(#premiumGlow)" />
+
+    <!-- Stylized Apple Leaf/Compliance Checkmark (Top right accent) -->
+    <path d="M 400,240 
+             C 420,210 450,200 470,210 
+             C 480,230 460,260 430,270 
+             C 410,275 400,250 400,240 Z" 
+          fill="url(#brandGrad)" />
+
+    <!-- Central AI / App Nodes Core (Stylized App Store 'A' + Neural Nodes) -->
+    <circle cx="400" cy="390" r="28" fill="url(#brandGrad)" />
+    
+    <!-- Outer Orbit/Connections -->
+    <path d="M 330,460 L 400,320 L 470,460" 
+          fill="none" 
+          stroke="url(#brandGrad)" 
+          stroke-width="16" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+          
+    <path d="M 360,410 L 440,410" 
+          fill="none" 
+          stroke="url(#brandGrad)" 
+          stroke-width="16" 
+          stroke-linecap="round" />
+
+    <!-- AI Network Nodes (Star / Circle connections representing LLM audits) -->
+    <!-- Top Node -->
+    <circle cx="400" cy="320" r="18" fill="#ffffff" stroke="#3b82f6" stroke-width="6" />
+    <!-- Bottom Left Node -->
+    <circle cx="330" cy="460" r="18" fill="#ffffff" stroke="#a855f7" stroke-width="6" />
+    <!-- Bottom Right Node -->
+    <circle cx="470" cy="460" r="18" fill="#ffffff" stroke="#3b82f6" stroke-width="6" />
+
+    <!-- Pulse effect circles -->
+    <circle cx="400" cy="390" r="60" fill="none" stroke="#a855f7" stroke-width="4" opacity="0.4" stroke-dasharray="10 15" />
+    <circle cx="400" cy="390" r="90" fill="none" stroke="#3b82f6" stroke-width="3" opacity="0.2" />
+  </g>
+
+  <!-- Gracias AI Wordmark (Typography at the bottom) -->
+  <text x="400" y="720" 
+        font-family="system-ui, -apple-system, 'SF Pro Display', Roboto, Helvetica, sans-serif" 
+        font-size="52" 
+        font-weight="800" 
+        fill="#ffffff" 
+        text-anchor="middle" 
+        letter-spacing="4">
+    GRACIAS AI
+  </text>
+  
+  <text x="400" y="765" 
+        font-family="system-ui, -apple-system, 'SF Pro Text', Roboto, Helvetica, sans-serif" 
+        font-size="22" 
+        font-weight="600" 
+        fill="#94a3b8" 
+        text-anchor="middle" 
+        letter-spacing="8">
+    COMPLIANCE AUDITOR
+  </text>
+</svg>
