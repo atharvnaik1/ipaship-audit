@@ -1,5 +1,9 @@
 # ipaShip - Mobile Apps Compliance Auditor (Open Source)
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/atharvnaik1/ipaship-audit/version.svg)](https://yarkr.com/arks/atharvnaik1/ipaship-audit)
+<!-- yarkr:badges:end -->
+
 AI-powered iOS App Store compliance auditor. Upload your `.ipa` file and get a comprehensive audit against Apple's Review Guidelines — before you submit.
 
 Added kimi 2.5 as default with my own api key.
@@ -67,6 +71,38 @@ Open [http://localhost:8080](http://localhost:8080) in your browser.
 npm run build
 npm start
 ```
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/atharvnaik1/ipaship-audit) as the ark [atharvnaik1/ipaship-audit](https://yarkr.com/arks/atharvnaik1/ipaship-audit), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync atharvnaik1/ipaship-audit
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:atharvnaik1/ipaship-audit/ipaship-audit
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add atharvnaik1/ipaship-audit
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/atharvnaik1/ipaship-audit`.
+<!-- yarkr:install:end -->
 
 ## How It Works
 
